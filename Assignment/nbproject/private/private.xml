@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/henry/OneDrive/文件/ITP4511/Assignment/web/staffFunction/addVenue.jsp</file>
+            <file>file:/C:/Users/henry/OneDrive/文件/ITP4511/Assignment/web/staffFunction/listCheckRecordbyId.jsp</file>
+            <file>file:/C:/Users/henry/OneDrive/文件/ITP4511/Assignment/web/staffFunction/checkInOut.jsp</file>
+            <file>file:/C:/Users/henry/OneDrive/文件/ITP4511/Assignment/web/welcome.jsp</file>
+            <file>file:/C:/Users/henry/OneDrive/文件/ITP4511/Assignment/web/index.jsp</file>
+            <file>file:/C:/Users/henry/OneDrive/文件/ITP4511/Assignment/web/memberFunction/listVeune.jsp</file>
+            <file>file:/C:/Users/henry/OneDrive/文件/ITP4511/Assignment/web/memberFunction/listGuest.jsp</file>
+            <file>file:/C:/Users/henry/OneDrive/文件/ITP4511/Assignment/src/java/ict/servlet/TimeslotController.java</file>
+            <file>file:/C:/Users/henry/OneDrive/文件/ITP4511/Assignment/web/memberFunction/listBooking.jsp</file>
+            <file>file:/C:/Users/henry/OneDrive/文件/ITP4511/Assignment/src/java/ict/bean/checkRecord.java</file>
+            <file>file:/C:/Users/henry/OneDrive/文件/ITP4511/Assignment/src/java/ict/bean/loginInfo.java</file>
+            <file>file:/C:/Users/henry/OneDrive/文件/ITP4511/Assignment/web/WEB-INF/web.xml</file>
+            <file>file:/C:/Users/henry/OneDrive/文件/ITP4511/Assignment/src/java/ict/servlet/GuestController.java</file>
+            <file>file:/C:/Users/henry/OneDrive/文件/ITP4511/Assignment/src/java/ict/bean/GuestBean.java</file>
+            <file>file:/C:/Users/henry/OneDrive/文件/ITP4511/Assignment/web/staffFunction/listTimeslot.jsp</file>
+            <file>file:/C:/Users/henry/OneDrive/文件/ITP4511/Assignment/web/login.jsp</file>
+            <file>file:/C:/Users/henry/OneDrive/文件/ITP4511/Assignment/src/java/ict/bean/BookingRequestBean.java</file>
+            <file>file:/C:/Users/henry/OneDrive/文件/ITP4511/Assignment/src/java/ict/db/DB.java</file>
+            <file>file:/C:/Users/henry/OneDrive/文件/ITP4511/Assignment/src/java/ict/servlet/GuestListController.java</file>
+            <file>file:/C:/Users/henry/OneDrive/文件/ITP4511/Assignment/src/java/ict/servlet/CheckInOutController.java</file>
+            <file>file:/C:/Users/henry/OneDrive/文件/ITP4511/Assignment/src/java/ict/bean/GuestListBean.java</file>
+            <file>file:/C:/Users/henry/OneDrive/文件/ITP4511/Assignment/web/memberFunction/addBooking.jsp</file>
+            <file>file:/C:/Users/henry/OneDrive/文件/ITP4511/Assignment/web/staffMain.jsp</file>
+            <file>file:/C:/Users/henry/OneDrive/文件/ITP4511/Assignment/src/java/ict/servlet/LoginController.java</file>
+            <file>file:/C:/Users/henry/OneDrive/文件/ITP4511/Assignment/web/adminMain.jsp</file>
+            <file>file:/C:/Users/henry/OneDrive/文件/ITP4511/Assignment/web/memberFunction/listGuestList.jsp</file>
+            <file>file:/C:/Users/henry/OneDrive/文件/ITP4511/Assignment/web/loginError.jsp</file>
+            <file>file:/C:/Users/henry/OneDrive/文件/ITP4511/Assignment/web/memberMain.jsp</file>
+            <file>file:/C:/Users/henry/OneDrive/文件/ITP4511/Assignment/web/staffFunction/staffListVenue.jsp</file>
+            <file>file:/C:/Users/henry/OneDrive/文件/ITP4511/Assignment/web/staffFunction/editTimeslot.jsp</file>
+            <file>file:/C:/Users/henry/OneDrive/文件/ITP4511/Assignment/src/java/ict/servlet/VenueController.java</file>
+            <file>file:/C:/Users/henry/OneDrive/文件/ITP4511/Assignment/web/staffFunction/approveBooking.jsp</file>
+            <file>file:/C:/Users/henry/OneDrive/文件/ITP4511/Assignment/src/java/ict/servlet/bookRequestController.java</file>
+            <file>file:/C:/Users/henry/OneDrive/文件/ITP4511/Assignment/src/java/ict/db/UserDB.java</file>
+            <file>file:/C:/Users/henry/OneDrive/文件/ITP4511/Assignment/web/memberFunction/editGuest.jsp</file>
+            <file>file:/C:/Users/henry/OneDrive/文件/ITP4511/Assignment/src/java/ict/bean/VenueBean.java</file>
+        </group>
+    </open-files>
+</project-private>
