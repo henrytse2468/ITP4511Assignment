@@ -304,21 +304,37 @@ public class DB {
     public boolean addBookRequest(String veune, String date, String memberId, String startTime, String endTime, String guestList){
         Connection cnnct = null;
         PreparedStatement pStmnt = null;
+        Connection cnnct1 = null;
+        PreparedStatement pStmnt1 = null;
         boolean isSuccess = false;
         try{
-            cnnct = getConnection();
-            String preQueryStatement = "INSERT INTO bookingRequest VALUES(?,?,?,?,?,?,0,CURRENT_TIMESTAMP,NULL,?)";
-            pStmnt = cnnct.prepareStatement(preQueryStatement);
-            pStmnt.setString(1, getLatestId("bookingRequest", "bookingRequestId"));
-            pStmnt.setString(2, date);
-            pStmnt.setString(3, veune);
-            pStmnt.setString(4, memberId);
-            pStmnt.setString(5, startTime);
-            pStmnt.setString(6, endTime);
-            pStmnt.setString(7, guestList);
+            //select record from table
+            cnnct1 = getConnection();
+            String preQueryStatement1 = "Select * From bookingRequest WHERE bookVenueId = ? AND bookDate = ? AND bookStartTime <= ? AND bookEndTime > ? Limit 1";
+            pStmnt1 = cnnct1.prepareStatement(preQueryStatement1);
+            pStmnt1.setString(1, veune);
+            pStmnt1.setString(2, date);
+            pStmnt1.setString(3, endTime);
+            pStmnt1.setString(4, endTime);
+            ResultSet rs = null;
+            rs = pStmnt1.executeQuery();
+            if(rs.next() == false){
+                //insert
+                cnnct = getConnection();
+                String preQueryStatement = "INSERT INTO bookingRequest VALUES(?,?,?,?,?,?,0,CURRENT_TIMESTAMP,NULL,?)";
+                pStmnt = cnnct.prepareStatement(preQueryStatement);
+                pStmnt.setString(1, getLatestId("bookingRequest", "bookingRequestId"));
+                pStmnt.setString(2, date);
+                pStmnt.setString(3, veune);
+                pStmnt.setString(4, memberId);
+                pStmnt.setString(5, startTime);
+                pStmnt.setString(6, endTime);
+                pStmnt.setString(7, guestList);
+
+                int rowCount = pStmnt.executeUpdate();
+                    isSuccess = true;          
+            }          
             
-            int rowCount = pStmnt.executeUpdate();
-                isSuccess = true;          
         }catch(SQLException ex){
             while (ex != null){
             ex.printStackTrace();
